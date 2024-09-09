@@ -1,2 +1,2 @@
 # termal
-ascii fluid simulation
+toy terminal graphics helper
