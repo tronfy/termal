@@ -22,6 +22,8 @@ QUARTER_CHARS = [
 
 class Board:
     def __init__(self, width, height):
+        assert width % 2 == 0, "width must be even"
+        assert height % 2 == 0, "height must be even"
         self.width = width
         self.height = height
         self.cells = np.zeros((self.height, self.width))
